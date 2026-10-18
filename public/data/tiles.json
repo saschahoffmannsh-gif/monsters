@@ -1,0 +1,147 @@
+{
+ "world": {
+  "width": 5040,
+  "height": 2800
+ },
+ "layers": {
+  "base": {
+   "name": "base",
+   "width": 5040,
+   "height": 2800,
+   "tileSize": 512,
+   "levels": [
+    {
+     "level": 0,
+     "width": 5040,
+     "height": 2800,
+     "cols": 10,
+     "rows": 6
+    },
+    {
+     "level": 1,
+     "width": 2520,
+     "height": 1400,
+     "cols": 5,
+     "rows": 3
+    },
+    {
+     "level": 2,
+     "width": 1260,
+     "height": 700,
+     "cols": 3,
+     "rows": 2
+    },
+    {
+     "level": 3,
+     "width": 630,
+     "height": 350,
+     "cols": 2,
+     "rows": 1
+    },
+    {
+     "level": 4,
+     "width": 315,
+     "height": 175,
+     "cols": 1,
+     "rows": 1
+    }
+   ],
+   "url": "tiles/base/{level}/{x}_{y}.jpg"
+  },
+  "detail": {
+   "name": "detail",
+   "width": 5467,
+   "height": 3037,
+   "tileSize": 512,
+   "levels": [
+    {
+     "level": 0,
+     "width": 5467,
+     "height": 3037,
+     "cols": 11,
+     "rows": 6
+    },
+    {
+     "level": 1,
+     "width": 2734,
+     "height": 1519,
+     "cols": 6,
+     "rows": 3
+    },
+    {
+     "level": 2,
+     "width": 1367,
+     "height": 760,
+     "cols": 3,
+     "rows": 2
+    },
+    {
+     "level": 3,
+     "width": 684,
+     "height": 380,
+     "cols": 2,
+     "rows": 1
+    },
+    {
+     "level": 4,
+     "width": 342,
+     "height": 190,
+     "cols": 1,
+     "rows": 1
+    }
+   ],
+   "url": "tiles/detail/{level}/{x}_{y}.jpg"
+  },
+  "detail3": {
+   "name": "detail3",
+   "width": 11861,
+   "height": 6589,
+   "tileSize": 512,
+   "levels": [
+    {
+     "level": 0,
+     "width": 11861,
+     "height": 6589,
+     "cols": 24,
+     "rows": 13
+    },
+    {
+     "level": 1,
+     "width": 5931,
+     "height": 3295,
+     "cols": 12,
+     "rows": 7
+    },
+    {
+     "level": 2,
+     "width": 2966,
+     "height": 1648,
+     "cols": 6,
+     "rows": 4
+    },
+    {
+     "level": 3,
+     "width": 1483,
+     "height": 824,
+     "cols": 3,
+     "rows": 2
+    },
+    {
+     "level": 4,
+     "width": 742,
+     "height": 412,
+     "cols": 2,
+     "rows": 1
+    },
+    {
+     "level": 5,
+     "width": 371,
+     "height": 206,
+     "cols": 1,
+     "rows": 1
+    }
+   ],
+   "url": "tiles/detail3/{level}/{x}_{y}.jpg"
+  }
+ }
+}

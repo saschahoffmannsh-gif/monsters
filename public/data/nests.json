@@ -1,0 +1,3507 @@
+{
+"generatedBy": "demo-server",
+"seed": 1337,
+"cellSize": 20,
+"nests": [
+{
+"id": "n0000",
+"cx": 210,
+"cy": 36,
+"player": "BuddelKralle25",
+"level": 14,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0001",
+"cx": 23,
+"cy": 75,
+"player": "HügelMax94",
+"level": 6,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0002",
+"cx": 20,
+"cy": 80,
+"player": "SchaufelZwerg33",
+"level": 5,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0003",
+"cx": 89,
+"cy": 37,
+"player": "MaulwurfMax47",
+"level": 2,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0004",
+"cx": 38,
+"cy": 95,
+"player": "HügelKralle86",
+"level": 14,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0005",
+"cx": 194,
+"cy": 32,
+"player": "MopsFee10",
+"level": 14,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0006",
+"cx": 195,
+"cy": 112,
+"player": "HügelBande85",
+"level": 12,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0007",
+"cx": 34,
+"cy": 105,
+"player": "MatschPfote12",
+"level": 12,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0008",
+"cx": 170,
+"cy": 32,
+"player": "ErdnussNase37",
+"level": 16,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0009",
+"cx": 58,
+"cy": 138,
+"player": "GrabeMax96",
+"level": 13,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0010",
+"cx": 184,
+"cy": 19,
+"player": "WühlBande57",
+"level": 4,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0011",
+"cx": 163,
+"cy": 95,
+"player": "ErdnussFee24",
+"level": 13,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0012",
+"cx": 17,
+"cy": 14,
+"player": "ErdnussBlitz63",
+"level": 2,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0013",
+"cx": 102,
+"cy": 49,
+"player": "KrümelFee13",
+"level": 18,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0014",
+"cx": 85,
+"cy": 116,
+"player": "BuddelKralle10",
+"level": 11,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0015",
+"cx": 183,
+"cy": 37,
+"player": "MatschFee75",
+"level": 5,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0016",
+"cx": 152,
+"cy": 32,
+"player": "TunnelBoss6",
+"level": 9,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0017",
+"cx": 59,
+"cy": 74,
+"player": "BuddelMax89",
+"level": 15,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0018",
+"cx": 13,
+"cy": 106,
+"player": "MaulwurfBande14",
+"level": 11,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0019",
+"cx": 162,
+"cy": 114,
+"player": "HügelMax83",
+"level": 10,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0020",
+"cx": 135,
+"cy": 136,
+"player": "TunnelKralle7",
+"level": 23,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0021",
+"cx": 116,
+"cy": 13,
+"player": "KrümelLotte80",
+"level": 11,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0022",
+"cx": 51,
+"cy": 58,
+"player": "BuddelBoss64",
+"level": 4,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0023",
+"cx": 90,
+"cy": 2,
+"player": "HügelHeld3",
+"level": 2,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0024",
+"cx": 235,
+"cy": 79,
+"player": "MatschNase88",
+"level": 2,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0025",
+"cx": 79,
+"cy": 18,
+"player": "BuddelNase62",
+"level": 11,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0026",
+"cx": 25,
+"cy": 78,
+"player": "BuddelLotte45",
+"level": 8,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0027",
+"cx": 103,
+"cy": 99,
+"player": "ErdnussZwerg24",
+"level": 16,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0028",
+"cx": 25,
+"cy": 14,
+"player": "WurzelFee33",
+"level": 12,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0029",
+"cx": 60,
+"cy": 64,
+"player": "MopsBlitz46",
+"level": 11,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0030",
+"cx": 243,
+"cy": 70,
+"player": "TunnelNase8",
+"level": 10,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0031",
+"cx": 38,
+"cy": 44,
+"player": "MopsNase42",
+"level": 1,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0032",
+"cx": 2,
+"cy": 60,
+"player": "TunnelKralle86",
+"level": 11,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0033",
+"cx": 229,
+"cy": 28,
+"player": "MaulwurfKönig67",
+"level": 1,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0034",
+"cx": 215,
+"cy": 85,
+"player": "MopsHeld65",
+"level": 5,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0035",
+"cx": 210,
+"cy": 60,
+"player": "BuddelLotte58",
+"level": 1,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0036",
+"cx": 187,
+"cy": 121,
+"player": "TunnelKralle43",
+"level": 10,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0037",
+"cx": 209,
+"cy": 116,
+"player": "HügelLotte83",
+"level": 12,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0038",
+"cx": 173,
+"cy": 32,
+"player": "HügelLotte41",
+"level": 3,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0039",
+"cx": 96,
+"cy": 28,
+"player": "MaulwurfPfote97",
+"level": 11,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0040",
+"cx": 84,
+"cy": 59,
+"player": "SchaufelBlitz65",
+"level": 1,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0041",
+"cx": 91,
+"cy": 97,
+"player": "MatschZwerg73",
+"level": 1,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0042",
+"cx": 230,
+"cy": 96,
+"player": "HügelKönig42",
+"level": 12,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0043",
+"cx": 242,
+"cy": 48,
+"player": "HügelKönig88",
+"level": 9,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0044",
+"cx": 31,
+"cy": 22,
+"player": "KrümelZwerg41",
+"level": 11,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0045",
+"cx": 84,
+"cy": 36,
+"player": "KrümelFee2",
+"level": 3,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0046",
+"cx": 173,
+"cy": 100,
+"player": "ErdnussBoss88",
+"level": 12,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0047",
+"cx": 41,
+"cy": 42,
+"player": "TunnelZwerg67",
+"level": 7,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0048",
+"cx": 94,
+"cy": 57,
+"player": "WurzelBoss1",
+"level": 8,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0049",
+"cx": 179,
+"cy": 68,
+"player": "MaulwurfKönig57",
+"level": 13,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0050",
+"cx": 19,
+"cy": 75,
+"player": "MopsNase53",
+"level": 5,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0051",
+"cx": 76,
+"cy": 136,
+"player": "MopsFee47",
+"level": 14,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0052",
+"cx": 182,
+"cy": 6,
+"player": "TunnelLotte82",
+"level": 6,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0053",
+"cx": 159,
+"cy": 48,
+"player": "MatschPfote76",
+"level": 8,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0054",
+"cx": 51,
+"cy": 33,
+"player": "BuddelPfote50",
+"level": 3,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0055",
+"cx": 140,
+"cy": 136,
+"player": "KrümelNase96",
+"level": 1,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0056",
+"cx": 207,
+"cy": 92,
+"player": "BuddelPfote67",
+"level": 3,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0057",
+"cx": 25,
+"cy": 76,
+"player": "TunnelNase1",
+"level": 18,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0058",
+"cx": 172,
+"cy": 64,
+"player": "MatschHeld21",
+"level": 15,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0059",
+"cx": 55,
+"cy": 68,
+"player": "WurzelPfote80",
+"level": 7,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0060",
+"cx": 91,
+"cy": 104,
+"player": "MatschZwerg31",
+"level": 13,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0061",
+"cx": 38,
+"cy": 46,
+"player": "TunnelKralle25",
+"level": 12,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0062",
+"cx": 232,
+"cy": 49,
+"player": "WühlKönig55",
+"level": 5,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0063",
+"cx": 209,
+"cy": 48,
+"player": "KrümelMax35",
+"level": 5,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0064",
+"cx": 119,
+"cy": 13,
+"player": "GrabeFee9",
+"level": 14,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0065",
+"cx": 186,
+"cy": 134,
+"player": "KrümelKönig10",
+"level": 15,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0066",
+"cx": 248,
+"cy": 5,
+"player": "MaulwurfBlitz15",
+"level": 1,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0067",
+"cx": 65,
+"cy": 126,
+"player": "HügelZwerg78",
+"level": 11,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0068",
+"cx": 59,
+"cy": 105,
+"player": "HügelBande12",
+"level": 7,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0069",
+"cx": 67,
+"cy": 10,
+"player": "TunnelLotte15",
+"level": 6,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0070",
+"cx": 57,
+"cy": 122,
+"player": "WühlHeld26",
+"level": 5,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0071",
+"cx": 170,
+"cy": 130,
+"player": "KrümelHeld94",
+"level": 9,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0072",
+"cx": 51,
+"cy": 7,
+"player": "WurzelZwerg91",
+"level": 15,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0073",
+"cx": 100,
+"cy": 27,
+"player": "MatschMax76",
+"level": 9,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0074",
+"cx": 154,
+"cy": 134,
+"player": "MaulwurfKönig86",
+"level": 15,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0075",
+"cx": 35,
+"cy": 29,
+"player": "WurzelKönig81",
+"level": 7,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0076",
+"cx": 18,
+"cy": 78,
+"player": "ErdnussHeld16",
+"level": 14,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0077",
+"cx": 23,
+"cy": 81,
+"player": "MopsNase91",
+"level": 7,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0078",
+"cx": 228,
+"cy": 42,
+"player": "HügelKralle17",
+"level": 17,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0079",
+"cx": 220,
+"cy": 96,
+"player": "WurzelBande44",
+"level": 16,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0080",
+"cx": 20,
+"cy": 78,
+"player": "BuddelMax36",
+"level": 5,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0081",
+"cx": 84,
+"cy": 92,
+"player": "HügelFee93",
+"level": 4,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0082",
+"cx": 2,
+"cy": 53,
+"player": "WühlFee25",
+"level": 14,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0083",
+"cx": 177,
+"cy": 10,
+"player": "MopsPfote64",
+"level": 4,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0084",
+"cx": 174,
+"cy": 11,
+"player": "SchaufelKralle68",
+"level": 9,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0085",
+"cx": 6,
+"cy": 123,
+"player": "KrümelZwerg47",
+"level": 8,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0086",
+"cx": 38,
+"cy": 112,
+"player": "MopsKönig16",
+"level": 3,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0087",
+"cx": 176,
+"cy": 93,
+"player": "HügelLotte20",
+"level": 20,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0088",
+"cx": 96,
+"cy": 137,
+"player": "GrabeMax84",
+"level": 10,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0089",
+"cx": 170,
+"cy": 99,
+"player": "WurzelMax77",
+"level": 10,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0090",
+"cx": 210,
+"cy": 113,
+"player": "MaulwurfFee62",
+"level": 16,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0091",
+"cx": 22,
+"cy": 26,
+"player": "HügelMax43",
+"level": 16,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0092",
+"cx": 16,
+"cy": 77,
+"player": "BuddelLotte12",
+"level": 10,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0093",
+"cx": 186,
+"cy": 65,
+"player": "ErdnussKralle27",
+"level": 3,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0094",
+"cx": 208,
+"cy": 126,
+"player": "ErdnussKralle65",
+"level": 2,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0095",
+"cx": 196,
+"cy": 13,
+"player": "MaulwurfBoss37",
+"level": 11,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0096",
+"cx": 7,
+"cy": 137,
+"player": "SchaufelLotte27",
+"level": 8,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0097",
+"cx": 109,
+"cy": 136,
+"player": "KrümelLotte8",
+"level": 12,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0098",
+"cx": 207,
+"cy": 49,
+"player": "HügelPfote73",
+"level": 9,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0099",
+"cx": 176,
+"cy": 127,
+"player": "WurzelHeld91",
+"level": 1,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0100",
+"cx": 199,
+"cy": 19,
+"player": "SchaufelPfote46",
+"level": 7,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0101",
+"cx": 46,
+"cy": 99,
+"player": "MatschPfote87",
+"level": 4,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0102",
+"cx": 77,
+"cy": 71,
+"player": "BuddelHeld49",
+"level": 16,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0103",
+"cx": 177,
+"cy": 74,
+"player": "WurzelBande8",
+"level": 13,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0104",
+"cx": 175,
+"cy": 75,
+"player": "MaulwurfBlitz98",
+"level": 13,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0105",
+"cx": 226,
+"cy": 49,
+"player": "KrümelHeld34",
+"level": 13,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0106",
+"cx": 242,
+"cy": 116,
+"player": "ErdnussKralle14",
+"level": 7,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0107",
+"cx": 21,
+"cy": 76,
+"player": "TunnelKönig55",
+"level": 12,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0108",
+"cx": 2,
+"cy": 17,
+"player": "ErdnussZwerg23",
+"level": 13,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0109",
+"cx": 99,
+"cy": 51,
+"player": "ErdnussHeld60",
+"level": 10,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0110",
+"cx": 217,
+"cy": 29,
+"player": "ErdnussKönig82",
+"level": 19,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0111",
+"cx": 62,
+"cy": 121,
+"player": "MaulwurfNase29",
+"level": 12,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0112",
+"cx": 120,
+"cy": 39,
+"player": "MaulwurfKralle46",
+"level": 17,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0113",
+"cx": 35,
+"cy": 40,
+"player": "SchaufelMax39",
+"level": 10,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0114",
+"cx": 216,
+"cy": 55,
+"player": "SchaufelBande62",
+"level": 20,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0115",
+"cx": 237,
+"cy": 45,
+"player": "ErdnussMax95",
+"level": 13,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0116",
+"cx": 22,
+"cy": 78,
+"player": "BuddelKralle64",
+"level": 13,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0117",
+"cx": 28,
+"cy": 132,
+"player": "ErdnussFee88",
+"level": 10,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0118",
+"cx": 32,
+"cy": 131,
+"player": "GrabeFee35",
+"level": 10,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0119",
+"cx": 58,
+"cy": 90,
+"player": "TunnelHeld71",
+"level": 7,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0120",
+"cx": 131,
+"cy": 131,
+"player": "GrabePfote2",
+"level": 11,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0121",
+"cx": 191,
+"cy": 31,
+"player": "GrabeNase85",
+"level": 4,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0122",
+"cx": 192,
+"cy": 80,
+"player": "SchaufelBlitz87",
+"level": 15,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0123",
+"cx": 47,
+"cy": 81,
+"player": "MopsFee45",
+"level": 14,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0124",
+"cx": 21,
+"cy": 72,
+"player": "HügelFee59",
+"level": 6,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0125",
+"cx": 89,
+"cy": 127,
+"player": "WurzelMax33",
+"level": 16,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0126",
+"cx": 114,
+"cy": 38,
+"player": "MopsPfote36",
+"level": 21,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0127",
+"cx": 244,
+"cy": 138,
+"player": "TunnelNase67",
+"level": 6,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0128",
+"cx": 183,
+"cy": 76,
+"player": "MatschBande80",
+"level": 5,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0129",
+"cx": 170,
+"cy": 89,
+"player": "SchaufelFee60",
+"level": 10,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0130",
+"cx": 172,
+"cy": 130,
+"player": "SchaufelPfote8",
+"level": 2,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0131",
+"cx": 2,
+"cy": 124,
+"player": "MatschPfote98",
+"level": 4,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0132",
+"cx": 11,
+"cy": 135,
+"player": "WühlFee78",
+"level": 10,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0133",
+"cx": 23,
+"cy": 14,
+"player": "ErdnussNase70",
+"level": 8,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0134",
+"cx": 80,
+"cy": 119,
+"player": "GrabeBlitz43",
+"level": 20,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0135",
+"cx": 215,
+"cy": 104,
+"player": "MaulwurfBande43",
+"level": 5,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0136",
+"cx": 237,
+"cy": 130,
+"player": "MopsBlitz56",
+"level": 13,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0137",
+"cx": 62,
+"cy": 23,
+"player": "WühlNase31",
+"level": 7,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0138",
+"cx": 200,
+"cy": 3,
+"player": "MaulwurfPfote63",
+"level": 9,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0139",
+"cx": 96,
+"cy": 53,
+"player": "MaulwurfBlitz48",
+"level": 16,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0140",
+"cx": 161,
+"cy": 56,
+"player": "SchaufelKralle87",
+"level": 16,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0141",
+"cx": 170,
+"cy": 20,
+"player": "SchaufelMax53",
+"level": 13,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0142",
+"cx": 87,
+"cy": 46,
+"player": "SchaufelLotte70",
+"level": 16,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0143",
+"cx": 146,
+"cy": 37,
+"player": "KrümelHeld85",
+"level": 1,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0144",
+"cx": 112,
+"cy": 18,
+"player": "MopsLotte82",
+"level": 5,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0145",
+"cx": 243,
+"cy": 1,
+"player": "MopsMax10",
+"level": 7,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0146",
+"cx": 224,
+"cy": 9,
+"player": "WühlHeld12",
+"level": 9,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0147",
+"cx": 98,
+"cy": 120,
+"player": "ErdnussLotte7",
+"level": 10,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0148",
+"cx": 182,
+"cy": 106,
+"player": "WühlKönig58",
+"level": 6,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0149",
+"cx": 28,
+"cy": 100,
+"player": "GrabeMax42",
+"level": 1,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0150",
+"cx": 201,
+"cy": 58,
+"player": "MaulwurfNase82",
+"level": 7,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0151",
+"cx": 4,
+"cy": 68,
+"player": "WühlMax77",
+"level": 10,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0152",
+"cx": 223,
+"cy": 51,
+"player": "ErdnussZwerg41",
+"level": 2,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0153",
+"cx": 250,
+"cy": 130,
+"player": "WurzelMax81",
+"level": 3,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0154",
+"cx": 12,
+"cy": 36,
+"player": "ErdnussKönig36",
+"level": 5,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0155",
+"cx": 205,
+"cy": 50,
+"player": "MatschFee39",
+"level": 7,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0156",
+"cx": 139,
+"cy": 108,
+"player": "KrümelLotte89",
+"level": 20,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0157",
+"cx": 63,
+"cy": 64,
+"player": "TunnelFee52",
+"level": 15,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0158",
+"cx": 82,
+"cy": 49,
+"player": "ErdnussBlitz35",
+"level": 5,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0159",
+"cx": 209,
+"cy": 15,
+"player": "MopsKralle40",
+"level": 6,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0160",
+"cx": 202,
+"cy": 2,
+"player": "MatschKönig75",
+"level": 1,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0161",
+"cx": 159,
+"cy": 40,
+"player": "MopsHeld15",
+"level": 8,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0162",
+"cx": 181,
+"cy": 91,
+"player": "MaulwurfKralle61",
+"level": 15,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0163",
+"cx": 127,
+"cy": 100,
+"player": "MatschBlitz94",
+"level": 6,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0164",
+"cx": 99,
+"cy": 132,
+"player": "MopsBlitz55",
+"level": 12,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0165",
+"cx": 101,
+"cy": 22,
+"player": "HügelKralle62",
+"level": 9,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0166",
+"cx": 247,
+"cy": 34,
+"player": "ErdnussFee61",
+"level": 7,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0167",
+"cx": 180,
+"cy": 66,
+"player": "GrabeZwerg93",
+"level": 8,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0168",
+"cx": 46,
+"cy": 101,
+"player": "TunnelPfote82",
+"level": 12,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0169",
+"cx": 191,
+"cy": 138,
+"player": "MatschPfote92",
+"level": 9,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0170",
+"cx": 229,
+"cy": 40,
+"player": "KrümelZwerg25",
+"level": 12,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0171",
+"cx": 219,
+"cy": 41,
+"player": "WurzelHeld38",
+"level": 9,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0172",
+"cx": 58,
+"cy": 38,
+"player": "KrümelBande22",
+"level": 10,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0173",
+"cx": 162,
+"cy": 49,
+"player": "MopsBande68",
+"level": 13,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0174",
+"cx": 236,
+"cy": 2,
+"player": "WühlLotte62",
+"level": 3,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0175",
+"cx": 176,
+"cy": 61,
+"player": "MatschPfote64",
+"level": 8,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0176",
+"cx": 97,
+"cy": 94,
+"player": "WühlBoss89",
+"level": 10,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0177",
+"cx": 149,
+"cy": 137,
+"player": "MatschBlitz50",
+"level": 11,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0178",
+"cx": 147,
+"cy": 49,
+"player": "TunnelBlitz98",
+"level": 13,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0179",
+"cx": 218,
+"cy": 82,
+"player": "SchaufelZwerg12",
+"level": 7,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0180",
+"cx": 138,
+"cy": 106,
+"player": "SchaufelZwerg4",
+"level": 11,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0181",
+"cx": 78,
+"cy": 120,
+"player": "MatschNase20",
+"level": 12,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0182",
+"cx": 45,
+"cy": 103,
+"player": "TunnelPfote22",
+"level": 17,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0183",
+"cx": 20,
+"cy": 82,
+"player": "MatschKralle19",
+"level": 8,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0184",
+"cx": 60,
+"cy": 121,
+"player": "MopsBlitz20",
+"level": 6,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0185",
+"cx": 110,
+"cy": 14,
+"player": "MopsZwerg99",
+"level": 6,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0186",
+"cx": 113,
+"cy": 12,
+"player": "WühlPfote29",
+"level": 8,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0187",
+"cx": 55,
+"cy": 45,
+"player": "HügelNase99",
+"level": 11,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0188",
+"cx": 156,
+"cy": 49,
+"player": "GrabeZwerg96",
+"level": 10,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0189",
+"cx": 199,
+"cy": 1,
+"player": "GrabeHeld24",
+"level": 7,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0190",
+"cx": 72,
+"cy": 86,
+"player": "HügelZwerg69",
+"level": 8,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0191",
+"cx": 181,
+"cy": 42,
+"player": "MatschBande79",
+"level": 3,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0192",
+"cx": 11,
+"cy": 137,
+"player": "SchaufelNase12",
+"level": 4,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0193",
+"cx": 181,
+"cy": 54,
+"player": "MaulwurfBlitz82",
+"level": 4,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0194",
+"cx": 92,
+"cy": 13,
+"player": "SchaufelNase18",
+"level": 14,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0195",
+"cx": 25,
+"cy": 102,
+"player": "TunnelPfote51",
+"level": 11,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0196",
+"cx": 191,
+"cy": 78,
+"player": "WurzelKralle10",
+"level": 9,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0197",
+"cx": 196,
+"cy": 58,
+"player": "GrabeKönig16",
+"level": 9,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0198",
+"cx": 13,
+"cy": 77,
+"player": "MaulwurfZwerg51",
+"level": 11,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0199",
+"cx": 212,
+"cy": 49,
+"player": "WurzelBoss18",
+"level": 19,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0200",
+"cx": 29,
+"cy": 66,
+"player": "BuddelBlitz78",
+"level": 6,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0201",
+"cx": 202,
+"cy": 119,
+"player": "MopsNase23",
+"level": 16,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0202",
+"cx": 66,
+"cy": 53,
+"player": "MaulwurfBande97",
+"level": 5,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0203",
+"cx": 141,
+"cy": 29,
+"player": "BuddelKönig47",
+"level": 10,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0204",
+"cx": 245,
+"cy": 5,
+"player": "MopsHeld8",
+"level": 10,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0205",
+"cx": 126,
+"cy": 17,
+"player": "HügelBlitz41",
+"level": 2,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0206",
+"cx": 230,
+"cy": 77,
+"player": "TunnelBande74",
+"level": 7,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0207",
+"cx": 124,
+"cy": 129,
+"player": "BuddelLotte33",
+"level": 6,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0208",
+"cx": 206,
+"cy": 117,
+"player": "BuddelKralle10",
+"level": 10,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0209",
+"cx": 37,
+"cy": 108,
+"player": "MaulwurfZwerg33",
+"level": 5,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0210",
+"cx": 62,
+"cy": 54,
+"player": "GrabeBlitz15",
+"level": 13,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0211",
+"cx": 39,
+"cy": 62,
+"player": "BuddelZwerg44",
+"level": 8,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0212",
+"cx": 205,
+"cy": 138,
+"player": "MaulwurfKralle26",
+"level": 7,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0213",
+"cx": 109,
+"cy": 16,
+"player": "KrümelFee6",
+"level": 10,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0214",
+"cx": 172,
+"cy": 11,
+"player": "WühlBlitz96",
+"level": 12,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0215",
+"cx": 180,
+"cy": 5,
+"player": "KrümelKönig76",
+"level": 6,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0216",
+"cx": 208,
+"cy": 128,
+"player": "WühlBoss41",
+"level": 16,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0217",
+"cx": 146,
+"cy": 26,
+"player": "ErdnussBlitz36",
+"level": 7,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0218",
+"cx": 84,
+"cy": 127,
+"player": "MopsPfote1",
+"level": 7,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0219",
+"cx": 94,
+"cy": 110,
+"player": "GrabePfote1",
+"level": 7,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0220",
+"cx": 214,
+"cy": 98,
+"player": "GrabeMax22",
+"level": 2,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0221",
+"cx": 134,
+"cy": 35,
+"player": "TunnelKönig21",
+"level": 7,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0222",
+"cx": 87,
+"cy": 34,
+"player": "MaulwurfLotte45",
+"level": 7,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0223",
+"cx": 177,
+"cy": 66,
+"player": "SchaufelNase39",
+"level": 11,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0224",
+"cx": 213,
+"cy": 36,
+"player": "MaulwurfFee1",
+"level": 11,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0225",
+"cx": 249,
+"cy": 50,
+"player": "BuddelLotte29",
+"level": 5,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0226",
+"cx": 40,
+"cy": 111,
+"player": "ErdnussKralle9",
+"level": 2,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0227",
+"cx": 46,
+"cy": 61,
+"player": "ErdnussHeld71",
+"level": 11,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0228",
+"cx": 183,
+"cy": 88,
+"player": "MaulwurfBoss26",
+"level": 8,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0229",
+"cx": 4,
+"cy": 32,
+"player": "KrümelKralle61",
+"level": 9,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0230",
+"cx": 64,
+"cy": 53,
+"player": "TunnelNase4",
+"level": 15,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0231",
+"cx": 77,
+"cy": 52,
+"player": "BuddelKralle95",
+"level": 1,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0232",
+"cx": 35,
+"cy": 72,
+"player": "HügelZwerg76",
+"level": 18,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0233",
+"cx": 81,
+"cy": 117,
+"player": "KrümelBoss15",
+"level": 20,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0234",
+"cx": 68,
+"cy": 138,
+"player": "TunnelPfote11",
+"level": 17,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0235",
+"cx": 216,
+"cy": 10,
+"player": "MopsPfote69",
+"level": 8,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0236",
+"cx": 140,
+"cy": 126,
+"player": "MatschBlitz65",
+"level": 1,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0237",
+"cx": 198,
+"cy": 89,
+"player": "MopsZwerg33",
+"level": 7,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0238",
+"cx": 148,
+"cy": 106,
+"player": "BuddelKralle54",
+"level": 16,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0239",
+"cx": 228,
+"cy": 68,
+"player": "MopsLotte46",
+"level": 5,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0240",
+"cx": 14,
+"cy": 39,
+"player": "WurzelKralle28",
+"level": 12,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0241",
+"cx": 195,
+"cy": 82,
+"player": "MopsFee25",
+"level": 9,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0242",
+"cx": 158,
+"cy": 13,
+"player": "TunnelHeld45",
+"level": 12,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0243",
+"cx": 121,
+"cy": 138,
+"player": "MopsNase71",
+"level": 6,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0244",
+"cx": 93,
+"cy": 97,
+"player": "WurzelFee11",
+"level": 11,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0245",
+"cx": 189,
+"cy": 134,
+"player": "WurzelBlitz41",
+"level": 1,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0246",
+"cx": 40,
+"cy": 135,
+"player": "HügelKralle8",
+"level": 11,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0247",
+"cx": 131,
+"cy": 5,
+"player": "SchaufelFee30",
+"level": 16,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0248",
+"cx": 88,
+"cy": 118,
+"player": "SchaufelKralle62",
+"level": 1,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0249",
+"cx": 190,
+"cy": 40,
+"player": "KrümelFee20",
+"level": 10,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0250",
+"cx": 8,
+"cy": 64,
+"player": "WühlKralle93",
+"level": 8,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0251",
+"cx": 94,
+"cy": 14,
+"player": "GrabeZwerg38",
+"level": 1,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0252",
+"cx": 105,
+"cy": 29,
+"player": "WühlBlitz73",
+"level": 1,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0253",
+"cx": 177,
+"cy": 7,
+"player": "WühlBoss57",
+"level": 12,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0254",
+"cx": 132,
+"cy": 74,
+"player": "SchaufelBlitz17",
+"level": 8,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0255",
+"cx": 176,
+"cy": 51,
+"player": "MatschBande53",
+"level": 12,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0256",
+"cx": 167,
+"cy": 22,
+"player": "TunnelMax26",
+"level": 10,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0257",
+"cx": 191,
+"cy": 9,
+"player": "BuddelZwerg37",
+"level": 9,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0258",
+"cx": 248,
+"cy": 42,
+"player": "HügelNase96",
+"level": 7,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0259",
+"cx": 13,
+"cy": 87,
+"player": "SchaufelBande51",
+"level": 10,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0260",
+"cx": 220,
+"cy": 53,
+"player": "MaulwurfBande74",
+"level": 11,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0261",
+"cx": 158,
+"cy": 122,
+"player": "BuddelLotte37",
+"level": 8,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0262",
+"cx": 211,
+"cy": 132,
+"player": "TunnelBande62",
+"level": 6,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0263",
+"cx": 104,
+"cy": 110,
+"player": "HügelBoss87",
+"level": 11,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0264",
+"cx": 68,
+"cy": 53,
+"player": "WühlKönig96",
+"level": 4,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0265",
+"cx": 248,
+"cy": 110,
+"player": "TunnelMax24",
+"level": 9,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0266",
+"cx": 62,
+"cy": 123,
+"player": "TunnelBande73",
+"level": 17,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0267",
+"cx": 92,
+"cy": 28,
+"player": "TunnelBoss84",
+"level": 10,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0268",
+"cx": 184,
+"cy": 132,
+"player": "KrümelNase98",
+"level": 10,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0269",
+"cx": 227,
+"cy": 32,
+"player": "KrümelKönig92",
+"level": 11,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0270",
+"cx": 189,
+"cy": 53,
+"player": "MatschKönig21",
+"level": 16,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0271",
+"cx": 165,
+"cy": 110,
+"player": "MopsMax96",
+"level": 6,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0272",
+"cx": 216,
+"cy": 32,
+"player": "SchaufelFee46",
+"level": 12,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0273",
+"cx": 183,
+"cy": 8,
+"player": "WühlBoss46",
+"level": 4,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0274",
+"cx": 94,
+"cy": 42,
+"player": "SchaufelBande72",
+"level": 8,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0275",
+"cx": 213,
+"cy": 59,
+"player": "HügelPfote49",
+"level": 13,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0276",
+"cx": 214,
+"cy": 2,
+"player": "KrümelNase65",
+"level": 18,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0277",
+"cx": 191,
+"cy": 52,
+"player": "GrabeNase11",
+"level": 10,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0278",
+"cx": 171,
+"cy": 79,
+"player": "Sascha",
+"level": 12,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": true
+},
+{
+"id": "n0279",
+"cx": 62,
+"cy": 131,
+"player": "TunnelBoss81",
+"level": 7,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0280",
+"cx": 2,
+"cy": 56,
+"player": "KrümelBande95",
+"level": 3,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0281",
+"cx": 116,
+"cy": 30,
+"player": "WühlKralle22",
+"level": 1,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0282",
+"cx": 194,
+"cy": 34,
+"player": "HügelPfote50",
+"level": 8,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0283",
+"cx": 210,
+"cy": 103,
+"player": "MatschFee59",
+"level": 12,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0284",
+"cx": 36,
+"cy": 68,
+"player": "HügelZwerg1",
+"level": 8,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0285",
+"cx": 86,
+"cy": 104,
+"player": "MaulwurfZwerg32",
+"level": 12,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0286",
+"cx": 138,
+"cy": 45,
+"player": "MaulwurfPfote62",
+"level": 18,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0287",
+"cx": 170,
+"cy": 101,
+"player": "KrümelNase92",
+"level": 18,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0288",
+"cx": 212,
+"cy": 119,
+"player": "SchaufelHeld62",
+"level": 5,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0289",
+"cx": 192,
+"cy": 5,
+"player": "SchaufelBande77",
+"level": 12,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0290",
+"cx": 240,
+"cy": 63,
+"player": "ErdnussBlitz26",
+"level": 12,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0291",
+"cx": 91,
+"cy": 122,
+"player": "ErdnussHeld83",
+"level": 1,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0292",
+"cx": 55,
+"cy": 136,
+"player": "KrümelHeld72",
+"level": 5,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0293",
+"cx": 21,
+"cy": 12,
+"player": "TunnelMax95",
+"level": 12,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0294",
+"cx": 182,
+"cy": 44,
+"player": "MatschZwerg94",
+"level": 8,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0295",
+"cx": 201,
+"cy": 67,
+"player": "TunnelHeld9",
+"level": 14,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0296",
+"cx": 51,
+"cy": 100,
+"player": "TunnelKönig9",
+"level": 10,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0297",
+"cx": 198,
+"cy": 9,
+"player": "BuddelBande36",
+"level": 6,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0298",
+"cx": 3,
+"cy": 136,
+"player": "GrabeBoss42",
+"level": 1,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0299",
+"cx": 114,
+"cy": 22,
+"player": "WühlHeld81",
+"level": 7,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0300",
+"cx": 86,
+"cy": 36,
+"player": "MaulwurfBlitz19",
+"level": 3,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0301",
+"cx": 204,
+"cy": 119,
+"player": "TunnelBlitz31",
+"level": 10,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0302",
+"cx": 205,
+"cy": 1,
+"player": "TunnelBoss67",
+"level": 10,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0303",
+"cx": 2,
+"cy": 121,
+"player": "HügelHeld43",
+"level": 10,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0304",
+"cx": 64,
+"cy": 132,
+"player": "GrabeKralle62",
+"level": 14,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0305",
+"cx": 53,
+"cy": 74,
+"player": "HügelNase19",
+"level": 20,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0306",
+"cx": 42,
+"cy": 61,
+"player": "TunnelBande55",
+"level": 4,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0307",
+"cx": 16,
+"cy": 75,
+"player": "MopsKralle59",
+"level": 10,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0308",
+"cx": 79,
+"cy": 50,
+"player": "MopsBoss77",
+"level": 9,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0309",
+"cx": 182,
+"cy": 74,
+"player": "MopsFee18",
+"level": 12,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0310",
+"cx": 117,
+"cy": 11,
+"player": "KrümelKönig22",
+"level": 3,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0311",
+"cx": 102,
+"cy": 31,
+"player": "ErdnussLotte82",
+"level": 11,
+"clan": "Rostbande",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0312",
+"cx": 108,
+"cy": 49,
+"player": "MaulwurfKönig38",
+"level": 9,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0313",
+"cx": 141,
+"cy": 39,
+"player": "HügelKralle64",
+"level": 5,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0314",
+"cx": 229,
+"cy": 63,
+"player": "BuddelNase45",
+"level": 13,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0315",
+"cx": 185,
+"cy": 87,
+"player": "WurzelKralle22",
+"level": 6,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0316",
+"cx": 107,
+"cy": 136,
+"player": "HügelMax93",
+"level": 7,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0317",
+"cx": 126,
+"cy": 131,
+"player": "BuddelFee14",
+"level": 12,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0318",
+"cx": 88,
+"cy": 50,
+"player": "MopsKralle6",
+"level": 4,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0319",
+"cx": 126,
+"cy": 43,
+"player": "WurzelKralle92",
+"level": 13,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0320",
+"cx": 28,
+"cy": 32,
+"player": "ErdnussBoss30",
+"level": 9,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0321",
+"cx": 113,
+"cy": 136,
+"player": "MaulwurfBande22",
+"level": 9,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0322",
+"cx": 21,
+"cy": 74,
+"player": "WurzelKönig19",
+"level": 8,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0323",
+"cx": 87,
+"cy": 114,
+"player": "BuddelHeld65",
+"level": 1,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0324",
+"cx": 114,
+"cy": 45,
+"player": "TunnelLotte78",
+"level": 6,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0325",
+"cx": 86,
+"cy": 82,
+"player": "MopsFee61",
+"level": 6,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0326",
+"cx": 224,
+"cy": 95,
+"player": "KrümelBlitz31",
+"level": 9,
+"clan": "Moosritter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0327",
+"cx": 130,
+"cy": 136,
+"player": "HügelFee74",
+"level": 10,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0328",
+"cx": 107,
+"cy": 25,
+"player": "MopsBlitz2",
+"level": 4,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0329",
+"cx": 72,
+"cy": 138,
+"player": "HügelKralle48",
+"level": 1,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0330",
+"cx": 83,
+"cy": 61,
+"player": "MaulwurfPfote99",
+"level": 13,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0331",
+"cx": 226,
+"cy": 99,
+"player": "SchaufelBlitz46",
+"level": 12,
+"clan": "Rostbande",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0332",
+"cx": 155,
+"cy": 116,
+"player": "MopsMax22",
+"level": 1,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0333",
+"cx": 83,
+"cy": 103,
+"player": "TunnelMax82",
+"level": 11,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0334",
+"cx": 69,
+"cy": 79,
+"player": "MatschKönig85",
+"level": 13,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0335",
+"cx": 49,
+"cy": 27,
+"player": "MopsNase40",
+"level": 5,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0336",
+"cx": 50,
+"cy": 68,
+"player": "TunnelBlitz13",
+"level": 10,
+"clan": "Moosritter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0337",
+"cx": 207,
+"cy": 90,
+"player": "GrabeBlitz38",
+"level": 1,
+"clan": "Gartenzwerge",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0338",
+"cx": 215,
+"cy": 36,
+"player": "WühlBande60",
+"level": 7,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0339",
+"cx": 59,
+"cy": 7,
+"player": "MaulwurfNase83",
+"level": 2,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0340",
+"cx": 18,
+"cy": 82,
+"player": "MatschHeld77",
+"level": 13,
+"clan": null,
+"flag": "red",
+"own": false
+},
+{
+"id": "n0341",
+"cx": 145,
+"cy": 105,
+"player": "WühlBoss34",
+"level": 10,
+"clan": "Tiefgräber",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0342",
+"cx": 106,
+"cy": 12,
+"player": "KrümelHeld98",
+"level": 19,
+"clan": "Tiefgräber",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0343",
+"cx": 80,
+"cy": 68,
+"player": "HügelKönig27",
+"level": 14,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0344",
+"cx": 182,
+"cy": 135,
+"player": "TunnelMax14",
+"level": 6,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0345",
+"cx": 246,
+"cy": 1,
+"player": "HügelMax95",
+"level": 11,
+"clan": "Wiesenwächter",
+"flag": "red",
+"own": false
+},
+{
+"id": "n0346",
+"cx": 74,
+"cy": 87,
+"player": "MopsPfote71",
+"level": 7,
+"clan": "Gartenzwerge",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0347",
+"cx": 212,
+"cy": 45,
+"player": "MopsKralle12",
+"level": 21,
+"clan": "Wiesenwächter",
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0348",
+"cx": 247,
+"cy": 112,
+"player": "TunnelHeld98",
+"level": 10,
+"clan": null,
+"flag": "blue",
+"own": false
+},
+{
+"id": "n0349",
+"cx": 208,
+"cy": 59,
+"player": "WurzelLotte35",
+"level": 1,
+"clan": null,
+"flag": "blue",
+"own": false
+}
+]
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+tools/__pycache__/
+*.pyc
+.DS_Store
+# Screenshots aus dem Verify-Lauf (groß, jederzeit neu erzeugbar) – nur die wichtigsten behalten
+screens/*
+!screens/08_vergleich.png
+!screens/08_max_zoom.png
+!screens/01_uebersicht.png
+!screens/09_editor.png
+# Editor-Exporte
+tools/grid_override.json
