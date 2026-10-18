@@ -12,6 +12,9 @@ export const LOD = {
    *  weil Zoomstufe 2 bei ~1.08 px/Welt-Einheit ihre native Auflösung erreicht. */
   detail3FromScale: 0.9,
   detail3ToScale: 1.3,
+  /** Überblendung Zoomstufe 3 → Zoomstufe 4 (2× hochskaliert, Real-ESRGAN) für hohe Zoomstufen/DPR 3 */
+  detail4FromScale: 1.25,
+  detail4ToScale: 1.6,
 } as const;
 
 /** max. Vergrößerung der schärfsten Kachelebene: CSS-px pro Quell-Pixel */
@@ -24,6 +27,7 @@ export function smoothstep(a: number, b: number, x: number): number {
 
 export const detailAlpha = (zoom: number) => smoothstep(LOD.detailFrom, LOD.detailTo, zoom);
 export const detail3Alpha = (scale: number) => smoothstep(LOD.detail3FromScale, LOD.detail3ToScale, scale);
+export const detail4Alpha = (scale: number) => smoothstep(LOD.detail4FromScale, LOD.detail4ToScale, scale);
 export const nestAlpha = (zoom: number) => smoothstep(LOD.nestsFrom, LOD.nestsTo, zoom);
 
 export function zoomStageLabel(zoom: number, scale = 0): string {

@@ -19,9 +19,10 @@ import classify_grid
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PUB = os.path.join(ROOT, 'public')
-SRC_BASE = '/workspace/monsters-map/weltkarte_clean.png'
-SRC_DETAIL = '/workspace/monsters-map/zoom2_clean.png'
-SRC_DETAIL3 = '/workspace/monsters-map/zoom3_full.png'
+SRC_BASE = '/workspace/monsters-map/weltkarte_v4.png'      # v4: aus zoom3_v4 heruntergerechnet (weniger Bäume, keine Erdflecken)
+SRC_DETAIL = '/workspace/monsters-map/zoom2_v4.png'
+SRC_DETAIL3 = '/workspace/monsters-map/zoom3_v4.png'
+SRC_DETAIL4 = '/workspace/monsters-map/zoom4_v4.png'      # 2x von zoom3_v4 (Real-ESRGAN general-x4v3, ONNX/CPU) + Original-Textur
 OVERRIDE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'grid_override.json')
 TILE = 512
 WORLD_W, WORLD_H = 5040, 2800   # Welt-Einheiten = Pixel der Basiskarte
@@ -30,7 +31,7 @@ NEST_COUNT = 350
 SEED = 1337
 
 
-def pyramid(img, name):
+def pyramid(img, name, min_side=0):
     out = os.path.join(PUB, 'tiles', name)
     h, w = img.shape[:2]
     levels = []
@@ -45,6 +46,7 @@ def pyramid(img, name):
                 cv2.imwrite(os.path.join(d, f'{tx}_{ty}.jpg'), t, [cv2.IMWRITE_JPEG_QUALITY, 84])
         levels.append({'level': lvl, 'width': cw, 'height': ch, 'cols': cols, 'rows': rows})
         if max(cw, ch) <= TILE: break
+        if min_side and max((cw + 1) // 2, (ch + 1) // 2) < min_side: break   # grobe Ebenen von detail4 nie sichtbar
         cur = cv2.resize(cur, ((cw + 1) // 2, (ch + 1) // 2), interpolation=cv2.INTER_AREA)
         lvl += 1
     return {'name': name, 'width': w, 'height': h, 'tileSize': TILE, 'levels': levels,
@@ -132,6 +134,8 @@ def main():
         layers = {'base': pyramid(base, 'base')}
         det = cv2.imread(SRC_DETAIL); layers['detail'] = pyramid(det, 'detail'); del det
         z3 = cv2.imread(SRC_DETAIL3); layers['detail3'] = pyramid(z3, 'detail3'); del z3
+        if os.path.exists(SRC_DETAIL4):
+            z4 = cv2.imread(SRC_DETAIL4); layers['detail4'] = pyramid(z4, 'detail4', min_side=4000); del z4
         meta = {'world': {'width': WORLD_W, 'height': WORLD_H}, 'layers': layers}
         json.dump(meta, open(os.path.join(PUB, 'data', 'tiles.json'), 'w'), indent=1)
         print('tiles done', flush=True)
@@ -151,6 +155,7 @@ def main():
     json.dump({'generatedBy': 'demo-server', 'seed': SEED, 'cellSize': CELL, 'nests': ns},
               open(os.path.join(PUB, 'data', 'nests.json'), 'w'), ensure_ascii=False, indent=0)
     k = sprites()
+    import nest_sprites; k += nest_sprites.build()
     print(f'grid {gw}x{gh} = {gw*gh} cells, buildable {int(b.sum())}, nests {len(ns)}, sprites {k}')
 
     ov = base.copy()

@@ -20,7 +20,7 @@ export interface PyramidMeta {
 
 export interface TilesMeta {
   world: WorldSize;
-  layers: { base: PyramidMeta; detail: PyramidMeta; detail3?: PyramidMeta };
+  layers: { base: PyramidMeta; detail: PyramidMeta; detail3?: PyramidMeta; detail4?: PyramidMeta };
 }
 
 export interface GridData {

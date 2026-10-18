@@ -5,6 +5,7 @@ import { MapRenderer } from './render/MapRenderer';
 import { Hud } from './ui/hud';
 import { GridEditor } from './ui/editor';
 import { MAX_MAGNIFY } from './core/lod';
+import { setupViewport } from './ui/viewport';
 
 async function start(): Promise<void> {
   const root = document.getElementById('app')!;
@@ -22,9 +23,8 @@ async function start(): Promise<void> {
   await map.init(root);
   loading.remove();
 
-  const resize = () => cam.resize(root.clientWidth, root.clientHeight);
-  resize();
-  window.addEventListener('resize', resize);
+  // Vollbild-Viewport (iOS: 100lvh/visualViewport, Safe-Area-Fallback) – Kamera + Pixi-Canvas folgen
+  setupViewport(root, (w, h) => { map.app.renderer.resize(w, h); cam.resize(w, h); });
 
   const flyToOwn = () => {
     const own = store.own;

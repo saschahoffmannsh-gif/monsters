@@ -1,12 +1,15 @@
-html, body { margin: 0; height: 100%; background: #1d2a14; overflow: hidden; overscroll-behavior: none;
+html, body { margin: 0; height: 100%; background: #6f8a2c; overflow: hidden; overscroll-behavior: none;
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; -webkit-tap-highlight-color: transparent; user-select: none; }
-#app { position: fixed; inset: 0; }
+html { --safe-top: env(safe-area-inset-top, 0px); --safe-bottom: env(safe-area-inset-bottom, 0px); }
+/* Karte deckt immer den ganzen Bildschirm: lvh (größter Viewport) + JS-gemessene Höhe als Fallback */
+#app { position: fixed; left: 0; top: 0; width: 100%; height: 100vh; height: 100lvh; height: max(100lvh, var(--app-h, 0px)); }
+.safe-probe { position: fixed; visibility: hidden; pointer-events: none; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
 #app canvas { display: block; touch-action: none; }
 
 .hud { position: absolute; inset: 0; pointer-events: none; color: #fff; }
 .hud > * { pointer-events: auto; }
 
-.resbar { position: absolute; top: calc(8px + env(safe-area-inset-top)); left: 50%; transform: translateX(-50%);
+.resbar { position: absolute; top: calc(8px + var(--safe-top)); left: 50%; transform: translateX(-50%);
   display: flex; gap: 6px; padding: 5px 8px; border-radius: 16px; background: rgba(28, 22, 14, .72);
   box-shadow: 0 3px 10px rgba(0,0,0,.35); backdrop-filter: blur(4px); }
 .res { display: flex; align-items: center; gap: 5px; padding: 3px 9px 3px 4px; border-radius: 12px; background: rgba(255,255,255,.08); font-size: 13px; }
@@ -18,13 +21,13 @@ html, body { margin: 0; height: 100%; background: #1d2a14; overflow: hidden; ove
 .res-stein i { background: radial-gradient(circle at 35% 35%, #d8d8d8, #7c7f86); }
 .res-uran i { background: radial-gradient(circle at 35% 35%, #d8ff6a, #36b52b); box-shadow: 0 0 8px #9bff3a, 0 0 0 2px rgba(255,255,255,.25); }
 
-.zoombox { position: absolute; left: 10px; top: calc(56px + env(safe-area-inset-top)); padding: 5px 10px; border-radius: 10px;
+.zoombox { position: absolute; left: 10px; top: calc(56px + var(--safe-top)); padding: 5px 10px; border-radius: 10px;
   background: rgba(28,22,14,.66); font-size: 12px; display: flex; gap: 8px; align-items: baseline; }
 .zoombox .zoomval { font-weight: 700; font-size: 14px; font-variant-numeric: tabular-nums; }
 .zoombox .stage { opacity: .8; }
 
 .side { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 8px; }
-.bottom { position: absolute; bottom: calc(14px + env(safe-area-inset-bottom)); left: 50%; transform: translateX(-50%); display: flex; gap: 10px; }
+.bottom { position: absolute; bottom: calc(14px + var(--safe-bottom)); left: 50%; transform: translateX(-50%); display: flex; gap: 10px; }
 
 .btn { font: inherit; font-weight: 700; color: #fff; border: 0; border-radius: 14px; padding: 11px 18px; cursor: pointer;
   background: linear-gradient(#6d5a3c, #4a3b25); box-shadow: 0 4px 0 #2c2214, 0 6px 12px rgba(0,0,0,.35); }
@@ -35,7 +38,7 @@ html, body { margin: 0; height: 100%; background: #1d2a14; overflow: hidden; ove
 .btn.small { padding: 6px 10px; font-size: 12px; border-radius: 10px; }
 .btn:disabled { opacity: .5; cursor: default; }
 
-.panel { position: absolute; left: 50%; bottom: calc(80px + env(safe-area-inset-bottom)); transform: translateX(-50%);
+.panel { position: absolute; left: 50%; bottom: calc(80px + var(--safe-bottom)); transform: translateX(-50%);
   min-width: 220px; padding: 12px 14px; border-radius: 16px; background: rgba(250, 243, 225, .97); color: #3a2c18;
   box-shadow: 0 8px 24px rgba(0,0,0,.4); font-size: 14px; }
 .panel .close { position: absolute; right: 6px; top: 4px; border: 0; background: none; font-size: 22px; color: #8a7350; cursor: pointer; }
@@ -55,7 +58,7 @@ html, body { margin: 0; height: 100%; background: #1d2a14; overflow: hidden; ove
 }
 
 /* Raster-Editor (Taste E) */
-.editor { position: absolute; left: 12px; top: calc(64px + env(safe-area-inset-top)); width: 270px; padding: 10px 12px; border-radius: 14px;
+.editor { position: absolute; left: 12px; top: calc(64px + var(--safe-top)); width: 270px; padding: 10px 12px; border-radius: 14px;
   background: rgba(250, 243, 225, .97); color: #3a2c18; box-shadow: 0 8px 24px rgba(0,0,0,.4); font-size: 13px; z-index: 20; }
 .editor .ed-title { font-weight: 800; font-size: 15px; margin-bottom: 6px; position: relative; }
 .editor .close { position: absolute; right: -4px; top: -6px; border: 0; background: none; font-size: 22px; color: #8a7350; cursor: pointer; }

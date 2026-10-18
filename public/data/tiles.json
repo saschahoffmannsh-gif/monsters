@@ -142,6 +142,36 @@
     }
    ],
    "url": "tiles/detail3/{level}/{x}_{y}.jpg"
+  },
+  "detail4": {
+   "name": "detail4",
+   "width": 23722,
+   "height": 13178,
+   "tileSize": 512,
+   "levels": [
+    {
+     "level": 0,
+     "width": 23722,
+     "height": 13178,
+     "cols": 47,
+     "rows": 26
+    },
+    {
+     "level": 1,
+     "width": 11861,
+     "height": 6589,
+     "cols": 24,
+     "rows": 13
+    },
+    {
+     "level": 2,
+     "width": 5931,
+     "height": 3295,
+     "cols": 12,
+     "rows": 7
+    }
+   ],
+   "url": "tiles/detail4/{level}/{x}_{y}.jpg"
   }
  }
 }

@@ -4,7 +4,7 @@ import type { WorldGrid } from '../core/grid';
 import type { NestStore } from '../core/nests';
 import { TilePyramid } from '../core/tiles';
 import type { TilesMeta } from '../core/types';
-import { detail3Alpha, detailAlpha, nestAlpha } from '../core/lod';
+import { detail3Alpha, detail4Alpha, detailAlpha, nestAlpha } from '../core/lod';
 import { TileLayer } from './TileLayer';
 import { NestLayer } from './NestLayer';
 import { GridOverlay } from './GridOverlay';
@@ -17,6 +17,8 @@ export class MapRenderer {
   detail!: TileLayer;
   /** Zoomstufe 3 (optional, falls in tiles.json vorhanden) */
   detail3: TileLayer | null = null;
+  /** Zoomstufe 4 (2× von Zoomstufe 3) für maximale Nähe auf hochauflösenden Displays */
+  detail4: TileLayer | null = null;
   nests!: NestLayer;
   grid!: GridOverlay;
   private dpr = 1;
@@ -24,10 +26,10 @@ export class MapRenderer {
   constructor(private readonly cam: Camera, private readonly meta: TilesMeta, private readonly gridData: WorldGrid, private readonly store: NestStore) {}
 
   async init(parent: HTMLElement): Promise<void> {
-    this.dpr = Math.min(2, window.devicePixelRatio || 1);
+    this.dpr = Math.min(3, window.devicePixelRatio || 1);
     await this.app.init({
       resizeTo: parent,
-      background: '#1d2a14',
+      background: '#6f8a2c',
       antialias: false,
       autoDensity: true,
       resolution: this.dpr,
@@ -44,6 +46,10 @@ export class MapRenderer {
     if (this.meta.layers.detail3) {
       this.detail3 = new TileLayer(new TilePyramid(this.meta.layers.detail3, this.meta.world));
       this.world.addChild(this.detail3.container);
+    }
+    if (this.meta.layers.detail4) {
+      this.detail4 = new TileLayer(new TilePyramid(this.meta.layers.detail4, this.meta.world));
+      this.world.addChild(this.detail4.container);
     }
     this.world.addChild(this.grid.container, this.nests.container);
     // detail3 wird nicht vorgeladen (seine gröbste Ebene ist nie sichtbar) – Kacheln kommen bei Bedarf
@@ -62,10 +68,13 @@ export class MapRenderer {
     // Zoomstufe 2 bleibt als Unterlage, bis Zoomstufe 3 voll deckt UND ihre Kacheln geladen sind
     const d3ready = d3 >= 1 && this.detail3!.pending === 0;
     this.detail.update(c, this.dpr, d3ready ? 0 : da);
-    this.detail3?.update(c, this.dpr, d3);
+    const d4 = this.detail4 ? detail4Alpha(c.scale) : 0;
+    const d4ready = d4 >= 1 && this.detail4!.pending === 0;
+    this.detail3?.update(c, this.dpr, d4ready ? 0 : d3);
+    this.detail4?.update(c, this.dpr, d4);
     this.grid.update(c);
     this.nests.update(c, nestAlpha(c.zoom), dt);
   }
 
-  get pendingTiles(): number { return this.base.pending + this.detail.pending + (this.detail3?.pending ?? 0); }
+  get pendingTiles(): number { return this.base.pending + this.detail.pending + (this.detail3?.pending ?? 0) + (this.detail4?.pending ?? 0); }
 }

@@ -9,5 +9,11 @@ screens/*
 !screens/08_max_zoom.png
 !screens/01_uebersicht.png
 !screens/09_editor.png
+!screens/10_mobil_1_uebersicht.png
+!screens/10_mobil_2_mittel.png
+!screens/10_mobil_3_maxzoom.png
+!screens/10_vorher_nachher_baeume.png
+!screens/10_vorher_nachher_baeume2.png
+!screens/10_vorher_nachher_uebersicht.jpg
 # Editor-Exporte
 tools/grid_override.json
